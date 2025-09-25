@@ -15,10 +15,11 @@ public class DroneAssignment {
         
         // TODO: Part 1 - Casting
         // Cast altitude (double) to int called displayAltitude
-        altitude += 20;
+
         int displayAltitude = (int) altitude;
         System.out.println("Display Altitude:  " + displayAltitude);
         // Cast battery (double) to int called batteryRounded
+        displayAltitude += 20;
         int batteryRounded = (int) battery;
         System.out.println("Battery Rounded:  "+ batteryRounded);
         photos += 3;
