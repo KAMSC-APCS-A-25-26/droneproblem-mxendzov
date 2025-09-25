@@ -20,7 +20,6 @@ public class DroneAssignment {
         System.out.println("Display Altitude:  " + displayAltitude);
         // Cast battery (double) to int called batteryRounded
         int batteryRounded = (int) battery;
-        batteryRounded -= 15;
         System.out.println("Battery Rounded:  "+ batteryRounded);
         photos += 3;
 
@@ -32,6 +31,7 @@ public class DroneAssignment {
 
         System.out.println("\nAfter climbing 20m:  " + displayAltitude);
         // Battery: Battery drains 15%
+        batteryRounded -= 15;
         System.out.println("After battery drain:  " + batteryRounded );
         // Photos: Drone takes 3 photos
         System.out.println("After taking 3 photos:  " + photos );
