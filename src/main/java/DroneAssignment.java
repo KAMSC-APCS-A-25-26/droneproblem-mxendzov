@@ -39,6 +39,7 @@ public class DroneAssignment {
         displayAltitude /=2;
         System.out.println("After descending to half:  " + displayAltitude );
         System.out.println("Photos:  " + photos );
+        photos %=4;
         System.out.println("Storage slots used:  " + photos + " out of 4" );
         // use modulo to calculate storage slots used on photos to calculate storage slots used
         // Display "Photos: " + photos
