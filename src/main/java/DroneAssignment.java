@@ -19,8 +19,8 @@ public class DroneAssignment {
         int displayAltitude = (int) altitude;
         System.out.println("Display Altitude:  " + displayAltitude);
         // Cast battery (double) to int called batteryRounded
-        battery -= 15;
         int batteryRounded = (int) battery;
+        batteryRounded -= 15;
         System.out.println("Battery Rounded:  "+ batteryRounded);
         photos += 3;
 
