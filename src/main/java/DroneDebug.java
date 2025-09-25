@@ -18,35 +18,34 @@ public class DroneDebug {
         // TODO: Fix the syntax errors below
         
         // Part 1 - Casting for drone display
-        int displayHeight = (int) flightHeight
+        int displayHeight = (int) flightHeight;
         
         int fuelRounded = (int) fuelLevel;
-        int fuelRounded = (int) fuelLevel;
         
-        int timeInt = int missionTime;
+        int timeInt = (int) missionTime;
         
         // Part 2 - Mission operations
-        flightHeight += 50
+        flightHeight += 50;
         
-        fuelLevel -= 15
+        fuelLevel -= 15;
         
-        surveillancePhotos += 8
+        surveillancePhotos += 8;
         
-        flightHeight *= 0.6
+        flightHeight *= 0.6;
         
-        surveillancePhotos %= 6
+        surveillancePhotos %= 6;
         
-        missionTime += 45
+        missionTime += 45;
         
         // Part 3 - Mission report
-        System.out.println(Flight Height Display: + displayHeight);
+        System.out.println("FlightHeightDisplay: "+ displayHeight);
         
         System.out.println("Fuel Level Rounded: " + fuelRounded);
         
-        System.out.println("Surveillance Photos: " + surveillancePhotos)
+        System.out.println("Surveillance Photos: " + surveillancePhotos);
         
-        int dataSlots = surveillancePhotos % 6
+        int dataSlots = surveillancePhotos % 6;
         System.out.println("Data storage slots used: " + dataSlots + " out of 6");
         
-        System.out.println("Mission Duration: " + missionTime + " minutes")
-    }
+        System.out.println("Mission Duration: " + missionTime + " minutes");
+    }}
